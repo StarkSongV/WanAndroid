@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="searchViewStyle">@style/SearchViewStyle</item>
+    </style>
+
+    <style name="AppTheme" parent="AppTheme.Base" />
+
+    <style name="SearchViewStyle" parent="Base.Widget.AppCompat.SearchView.ActionBar" />
+
+    <style name="AppTheme.Start" parent="AppTheme.Base">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="FloatingStyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#e0c9c4c4</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="AppTheme.Search">
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ToolBarStyle" parent="@style/BaseToolBarStyle" />
+
+    <style name="LoadingProgressStyle" parent="@style/Widget.AppCompat.ProgressBar">
+        <item name="android:minWidth">20dp</item>
+        <item name="android:maxWidth">20dp</item>
+        <item name="android:minHeight">20dp</item>
+        <item name="android:maxHeight">20dp</item>
+    </style>
+</resources>

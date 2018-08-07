@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BaseToolBarStyle" parent="ThemeOverlay.AppCompat">
+        <item name="android:textColorSecondary">@color/black</item>
+    </style>
+</resources>

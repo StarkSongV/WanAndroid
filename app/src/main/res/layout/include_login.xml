@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_login"
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til_login_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.sjc.wanandroid.view.ClearEditText
+            android:id="@+id/et_login_username"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:drawableRight="@mipmap/ic_launcher"
+            android:hint="账号"
+            android:imeOptions="actionNext"
+            android:inputType="phone|number"
+            android:paddingEnd="10dp"
+            android:text="15539630636"
+            android:textSize="17sp" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til_login_pwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true">
+
+        <com.sjc.wanandroid.view.ClearEditText
+            android:id="@+id/et_login_pwd"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="密码"
+            android:inputType="textPassword"
+            android:paddingEnd="10dp"
+            android:text="123456"
+            android:textSize="17sp" />
+    </android.support.design.widget.TextInputLayout>
+</LinearLayout>

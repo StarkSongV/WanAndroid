@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--沉浸式 4.4以上-->
+    <style name="AppTheme" parent="AppTheme.Base">
+        <!--透明状态栏-->
+        <item name="android:windowTranslucentStatus">true</item>
+        <!--设置导航栏透明-->
+        <!--<item name="android:windowTranslucentNavigation">true</item>-->
+    </style>
+    <style name="ToolBarStyle" parent="@style/BaseToolBarStyle">
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+</resources>

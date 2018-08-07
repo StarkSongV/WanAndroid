@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/favorite"
+        android:icon="@drawable/ic_favorite_gray_24dp"
+        android:title="@string/like_artile" />
+    <item
+        android:id="@+id/about_us"
+        android:icon="@drawable/ic_about_us_gray_24dp"
+        android:title="@string/about_us" />
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/ic_exit_to_app_gray_24dp"
+        android:title="@string/logout" />
+</menu>
